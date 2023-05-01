@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #ffead2;
-  color: #394867;
+  background-color: #f1f6f9;
+  color: #212a3e;
+
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -21,9 +23,19 @@ header {
   margin-bottom: 10px;
 }
 
+.title-banner {
+  display: flex;
+  align-items: center;
+}
+
 h1 {
   /* margin: 5%; */
-  font-size: 35px;
+  font-size: 45px;
+  font-family: "Amatic SC", cursive;
+}
+span {
+  font-size: 30px;
+  font-family: "Amatic SC", cursive;
 }
 
 nav {
@@ -42,7 +54,7 @@ ion-icon {
 }
 
 .link-container {
-  margin-left: 15%;
+  margin-left: 12%;
   margin-top: 25px;
 }
 
@@ -59,23 +71,30 @@ li {
 }
 
 h2 {
-  font-size: 23px;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
 }
 
 p {
-  font-size: 18px;
+  font-size: 15px;
   margin: 25px 0;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: "Amatic SC", cursive;
 }
 
 footer {
   height: 10vh;
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 button {
   width: 150px;
-  height: 75px;
+  height: 100%;
   font-size: 18px;
   border: solid 2px #394867;
 }
