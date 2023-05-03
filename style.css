@@ -146,7 +146,7 @@ a {
     width: 100%;
   }
   header {
-    height: 200px;
+    height: 27%;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -154,8 +154,11 @@ a {
     padding: 10px;
     background-color: #f1f6f9;
   }
+  .title {
+    max-width: none;
+  }
   h1 {
-    /* text-align: center; */
+    text-align: center;
     margin: 0 auto;
     background-color: #394867;
     padding: 10px;
