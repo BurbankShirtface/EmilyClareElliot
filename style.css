@@ -146,22 +146,30 @@ a {
     width: 100%;
   }
   header {
-    height: 180px;
+    height: 200px;
     display: flex;
     justify-self: center;
     align-items: center;
     flex-direction: column;
     padding: 10px;
+    background-color: #f1f6f9;
   }
   h1 {
-    text-align: center;
+    /* text-align: center; */
     margin: 0 auto;
+    background-color: #394867;
+    padding: 10px;
   }
   .title-links-container {
-    margin: 2%;
+    margin: 10px 0;
   }
-  .title-links {
-    margin: 10px;
+
+  ion-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 400ms ease;
+    color: #394867;
+    margin: 0 30px;
   }
   .main {
     flex-direction: column;
