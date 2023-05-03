@@ -12,6 +12,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 15px;
+  min-width: 315px;
 }
 
 header {
@@ -42,12 +43,12 @@ span {
 }
 
 .title-links-container {
-  margin: 5%;
+  margin: 2.5%;
 }
 
 ion-icon {
-  margin: 5px;
-  font-size: 1em;
+  margin: 1.2rem;
+  font-size: 1.3em;
   cursor: pointer;
   transition: all 400ms ease;
   color: #f1f6f9;
@@ -94,7 +95,7 @@ li {
   color: #212a3e;
 }
 .main-published-links:hover {
-  color: #6c7992;
+  color: #8099c9;
   transition: all 300ms ease;
 }
 
@@ -139,6 +140,12 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: #212a3e;
+}
+
+@media (max-width: 900px) {
+  body {
+    width: 100vw;
+  }
 }
 
 @media (max-width: 580px) {
